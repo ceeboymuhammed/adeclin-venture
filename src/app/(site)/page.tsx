@@ -18,7 +18,7 @@ export default function HomePage() {
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-[#0f4a2f]/75" />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-transparent to-[rgba(202,162,74,0.35)]" />
+        <div className="absolute inset-0 bg-linear-to-br from-black/40 via-transparent to-[rgba(202,162,74,0.35)]" />
 
         {/* Content */}
         <div className="relative border-b border-white/10">
@@ -163,10 +163,10 @@ export default function HomePage() {
           {/* Image block */}
           <div className="relative overflow-hidden rounded-3xl border border-neutral-200 bg-neutral-100">
             <div
-              className="h-[320px] w-full bg-cover bg-center"
+              className="h-320px w-full bg-cover bg-center"
               style={{ backgroundImage: "url('/images/pure-iron-beans.jpg')" }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/35 via-transparent to-transparent" />
             <div className="absolute bottom-4 left-4 rounded-2xl bg-white/90 px-4 py-2 text-sm font-semibold backdrop-blur">
               PURE IRON BEANS
             </div>
